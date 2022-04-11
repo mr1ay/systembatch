@@ -1,0 +1,1 @@
+tr.exe is only two echo command
