@@ -1,0 +1,33 @@
+
+@echo off 
+::FOR /F "tokens=2* skip=2" %%a in ('reg query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion" /v "CommonFilesDir"') do echo %%b
+::echo reg query %key% /v %value%
+:::echo %x%
+::for /f "tokens=1,2,3" %%A in ('ECHO %%BB%%  ') do echo %%A
+::for /f "tokens=1,2,3" %%A in 
+::('reg query "HKCU\Console\%SystemRoot%_system32_cmd.exe" /v InsertMode ^|findstr /ri "REG_DWORD"') do (
+::set x=%%A 
+::) 
+
+reg query "HKCU\Console\%%SystemRoot%%_system32_cmd.exe" /v InsertMode>UA.TXT
+
+
+set /p file=<UA.txt
+FOR /F "tokens=3 skip=2" %%a in (ua.txt) do set u=%%a
+echo %u%
+::if %u%==0x0  reg add "HKCU\Console\%%SystemRoot%%_system32_cmd.exe" /t  REG_DWORD /v InsertMode /d 1
+if %u%==0x1  reg add "HKCU\Console\%%SystemRoot%%_system32_cmd.exe" /t  REG_DWORD /v InsertMode /d 0
+
+
+
+
+::HKEY_CURRENT_USER\Console\%SystemRoot%_system32_cmd.exe
+::https://ss64.com/nt/reg.html
+
+::olmayan bişey ekle 
+::REG ADD "HKCU\Console\%SystemRoot%_system32_cmd.exe" /t  REG_DWORD /v evet /d 1
+
+::oku REG QUERY HKCU\Console
+
+::REG QUERY HKCU\Console\%SystemRoot%_system32_cmd.exe
+::değeri okuyo 

@@ -1,0 +1,5 @@
+sc  query  LGHUBUpdaterService | find /i "RUNNING" 
+::eğer çalışıyorsa 
+if %errorlevel"=="0" net stop   LGHUBUpdaterService
+::eğer çalışımıyorsa
+if %errorlevel"=="1" net start   LGHUBUpdaterService
