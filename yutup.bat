@@ -1,5 +1,5 @@
 @echo off
- 
+  
 setlocal enabledelayedexpansion
 :menu
 echo select mode
