@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/36374496/parse-simple-json-string-in-batch
+https://stedolan.github.io/jq/

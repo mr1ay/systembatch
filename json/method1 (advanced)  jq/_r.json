@@ -1,0 +1,1 @@
+{ "glossary": { "title": "example glossary", "GlossDiv": { "titlee": "S", "GlossList": { "GlossEntry": { "ID": "SGML", "SortAs": "SGML", "GlossTerm": "Standard Generalized Markup Language", "Acronym": "SGML", "Country": "Turkey",  "GlossSeeAlso": ["GML", "XML"] }, "GlossSee": "markup" } } } } 
