@@ -1,5 +1,5 @@
 Usage: youtube-dl.exe [OPTIONS] URL [URL...]
-
+ 
 Options:
   General Options:
     -h, --help                       Print this help text and exit
