@@ -1,4 +1,3 @@
- 
 @echo off
 ECHO.%*>%temp%/lowercase.mr1ay
 setlocal EnableDelayedExpansion
