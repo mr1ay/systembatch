@@ -6,4 +6,4 @@ Examples:
     dir | clip
     clip < readme.txt
 
-http://huddledmasses.org/clipexe-and-the-missing-pasteexe/
+::http://huddledmasses.org/clipexe-and-the-missing-pasteexe/
