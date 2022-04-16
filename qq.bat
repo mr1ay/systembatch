@@ -10,4 +10,3 @@ if "%1"=="q" 		 explorer.exe %1
 if not "%1"=="" if not "%1"=="sis" if not "%1"=="user" if not "%1"=="doc" if not "%1"=="down" if not "%1"=="d" if not "%1"=="sis" if not "%1"=="q" explorer.exe %1  
         	  
 :u
-::yes
