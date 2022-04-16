@@ -29,3 +29,5 @@ echo. call mouse dragBy 300x200
 echo. 
 echo. //absolute drag
 echo. call mouse dragTo 500x500
+
+
