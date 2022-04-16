@@ -1,7 +1,7 @@
 	@echo off
 
 	if "%1"=="" (echo d             [link]-^> download
-                    echo d [filename]  [link]-^> download with filename)
+                     echo d [filename]  [link]-^> download with filename)
 			
 
 	if "%1"=="d" 	(
