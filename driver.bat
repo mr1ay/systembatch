@@ -9,3 +9,5 @@ if "%1"=="0"        devcon disable %2
 if "%1"=="off"      devcon disable %2
 if "%1"=="close"    devcon disable %2
 if "%1"=="no"       devcon disable %2
+
+
