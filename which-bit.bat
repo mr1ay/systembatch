@@ -1,4 +1,3 @@
-
 @echo off
 
 Set _os_bitness=64
