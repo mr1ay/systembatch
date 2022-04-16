@@ -11,16 +11,16 @@
 				echo.:Syntax
 				echo.
 				echo.
-				echo.w  1   :wifi1 on 01" 
-				echo.w  2   :wifi2 on" 
-				echo.w  3   :wifi3 on"
+				echo.w  1       :   wifi1 on  
+				echo.w  2       :   wifi2 on 
+				echo.w  3       :   wifi3 on
 				echo. 
-				echo.w  w   :wifi connect name"	 
-				echo.w  ww  :wifi close"
-				echo.w  www :wifi are you connected?" 
-				echo.w  s   :wifi signal" 
-				echo.w  signal  :wifi signal" 
-				echo.w  ww  :wifi close"
+				echo.w          :   wifi connect name	 
+				echo.w  w       :   wifi close
+				echo.w  ww      :   wifi are you connected? 
+				echo.w  s       :   wifi signal 
+				echo.w  signal  :   wifi signal 
+				echo.w  ww      :   wifi close
 
 
 				echo.
@@ -35,8 +35,8 @@
 	if "%1"=="3" 	netsh wlan connect name=%2
  
 
-	if "%1"=="ww" 	netsh wlan disconnect
-	if "%1"=="www" 	(
+	if "%1"=="w" 	netsh wlan disconnect
+	if "%1"=="ww" 	(
 			ping www.google.com -n 1 -w 50000 > nul && (
 					echo. "connected internet "
 					echo.
