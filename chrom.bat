@@ -1,10 +1,11 @@
 @echo off 
-set a=%*
+set a=%1
+set b=%*
 shift /1
 echo %a:~1%
 
-if "%a%"=="c"   start chrome.exe -incognito  %2 %3 
-if "%a%"=="cc"  start chrome.exe -incognito --new-window  %*
+if "%b%"=="c"   start chrome.exe -incognito  %a%
+if "%b%"=="cc"  start chrome.exe -incognito --new-window   %a%
 
 
 timeout /t 1
