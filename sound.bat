@@ -3,8 +3,6 @@
 :: -> sound.bat %volume%
 ::volume is (0 - 100 )
 
-
-
 rem 65536 is 100%
 rem device where zero is the default device
 rem left and right
