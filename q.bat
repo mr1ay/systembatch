@@ -8,6 +8,5 @@ if "%1"=="d"     	cd /d C:\Users\%username%\Desktop && goto u
 if "%1"=="sis"     	cd /d C:\Windows\System32 && goto u
 if "%1"=="q" 		cd..	 && goto u
 if not "%1"=="" 	cd /d %1 
-
-        	  
+   	  
 :u
