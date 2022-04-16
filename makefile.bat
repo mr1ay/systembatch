@@ -4,6 +4,7 @@ color a
 mode 25,10
 set a=0
 set i=0
+
 : Menu
 set /a a=%a%+1
 set /a i=%i%+1
