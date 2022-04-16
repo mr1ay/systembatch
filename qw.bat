@@ -8,12 +8,8 @@ if "%1"=="l"     call batcenter.bat list
 if "%1"=="qq"    call qq C:qw i \Users\PS\AppData\Local\BatCenter\plugins
 if "%1"=="i"  (
 		set ilk=%cd%
- 
 		cd /d "D:\systemBatch\BatCenter" >nul
- 
 		timeout /t 5 >nul 
- 
- 
 		call batcenter install %2
 		call qq C:\Users\PS\AppData\Local\BatCenter\Plugins
  
