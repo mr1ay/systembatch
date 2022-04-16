@@ -1,1 +1,2 @@
-@echo off &&mouse position
+@echo off 
+mouse position
