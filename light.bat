@@ -1,2 +1,2 @@
 @echo off
-nircmd setbrightness %1
+nircmd setbrightness %1 
