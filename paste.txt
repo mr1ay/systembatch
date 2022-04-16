@@ -6,4 +6,4 @@ Examples:
     paste | sort
     paste > readme.txt
 
-http://huddledmasses.org/clipexe-and-the-missing-pasteexe/
+::http://huddledmasses.org/clipexe-and-the-missing-pasteexe/
