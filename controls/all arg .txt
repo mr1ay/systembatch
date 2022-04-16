@@ -1,0 +1,9 @@
+@echo off
+:all arg
+set a=%*
+
+
+
+:all arg -1 
+shift /1
+echo %a:~1%
